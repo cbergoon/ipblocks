@@ -5,7 +5,7 @@
 <a href="#"><img src="https://img.shields.io/badge/version-0.1.0-brightgreen.svg" alt="Version"></a>
 </p>
 
-Provides subnet information and functionality to divide subnets into blocks. Enabling parallelization of large scanning and network reconnaissance operations.
+Provides subnet information and functionality to divide subnets into blocks. This enables the parallelization of large scanning and network reconnaissance operations.
 
 #### Documentation 
 
