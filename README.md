@@ -15,13 +15,16 @@ See the docs [here](https://godoc.org/github.com/cbergoon/ipblocks).
 ```
 go get github.com/cbergoon/ipblocks
 ```
+```
+go install github.com/cbergoon/ipblocks/cmd/ipblockscli
+```
 
 #### CLI Usage 
 ```
-ipblocks -s 192.168.9.0/24 -b /26 
+ipblockscli -s 192.168.9.0/24 -b /26 
 ```
 ```
-ipblocks -s 192.168.9.0/24 -b /26 -v
+ipblockscli -v -s 192.168.9.0/24 -b /26 
 ```
 
 #### Example Usage
