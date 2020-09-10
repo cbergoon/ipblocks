@@ -21,10 +21,23 @@ go install github.com/cbergoon/ipblocks/cmd/ipblockscli
 
 #### CLI Usage 
 ```
+ipblockscli -h
+```
+```
 ipblockscli -s 192.168.9.0/24 -b /26 
 ```
 ```
 ipblockscli -v -s 192.168.9.0/24 -b /26 
+```
+
+#### CLI Help
+```
+Usage of ipblockscli:
+  -b string
+        size of block to divide subnet into (default "/28")
+  -s string
+        CIDR representation of subnet to divide (default "192.168.1.0/24")
+  -v    output verbose information describing subnet
 ```
 
 #### Example Usage
